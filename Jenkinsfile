@@ -11,7 +11,7 @@ steps { sh 'sh test.sh' }
 stage('Deploy') {
 steps { echo 'Deploying to staging' }
 }
-}
+  }
 post {
 success { archiveArtifacts artifacts: 'dist/*' }
 failure { echo 'Build failed - check the console output' }
