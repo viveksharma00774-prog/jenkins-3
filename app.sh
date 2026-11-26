@@ -1,2 +1,3 @@
 echo "Hello from Jenkins"
-echo"hi"
+echo"hi";
+jenkins
